@@ -68,7 +68,7 @@ public class ClassProviderInheritanceProvider implements InheritanceProvider {
      * @param provider The class provider
      */
     public ClassProviderInheritanceProvider(final ClassProvider provider) {
-        this(Opcodes.ASM7, provider);
+        this(Opcodes.ASM8, provider);
     }
 
     @Override
